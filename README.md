@@ -58,6 +58,16 @@ The bundle exposes a configurable REST layer with the following typical capabili
 - Lightweight external system synchronization
 - Search-oriented APIs backed by indexed Pimcore data
 
+### Fork Differences
+
+Compared to the original CI HUB version, this Odyssey-maintained fork includes:
+
+- compatibility updates for `Pimcore 11`
+- maintained Swagger support for `Pimcore 11` and `Pimcore 12` environments
+- support for `OpenSearch` as an alternative to Elasticsearch
+- ongoing compatibility maintenance for modern Pimcore projects
+- an open `GPL-3.0-or-later` license that allows further customization and community-driven improvements
+
 ### Documentation
 
 - [Installation and configuration](docs/00-installation-configuration.md)
@@ -137,6 +147,16 @@ Bundle предоставляет настраиваемый REST-слой со 
 - Frontend-приложения, работающие с данными Pimcore
 - Лёгкая синхронизация с внешними системами
 - Поисковые API поверх индексированных данных Pimcore
+
+### Отличия форка
+
+По сравнению с исходной версией CI HUB, этот fork от Odyssey включает:
+
+- обновления совместимости для `Pimcore 11`
+- поддержку Swagger для окружений на `Pimcore 11` и `Pimcore 12`
+- поддержку `OpenSearch` как альтернативы Elasticsearch
+- дальнейшее сопровождение совместимости для современных Pimcore-проектов
+- открытую лицензию `GPL-3.0-or-later`, позволяющую доработки, адаптацию и развитие сообществом
 
 ### Документация
 
