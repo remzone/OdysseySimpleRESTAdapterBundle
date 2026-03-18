@@ -15,7 +15,7 @@ The bundle is designed for projects that need a lightweight integration layer fo
 - Built as a standalone reusable bundle for installation in other Pimcore projects
 - Read-only REST endpoints for `DataObjects` and `Assets`
 - DataHub-based schema configuration
-- Elasticsearch-backed delivery layer
+- switchable `OpenSearch / Elasticsearch` backend configuration
 - Filtering, full-text search, sorting, pagination, and aggregations
 - Swagger UI for endpoint discovery and testing
 - Bearer-token protected API access
@@ -64,16 +64,20 @@ Compared to the original CI HUB version, this Odyssey-maintained fork includes:
 
 - compatibility updates for `Pimcore 11`
 - maintained Swagger support for `Pimcore 11` and `Pimcore 12` environments
-- support for `OpenSearch` as an alternative to Elasticsearch
+- configurable switching between `OpenSearch` and `Elasticsearch`
 - ongoing compatibility maintenance for modern Pimcore projects
 - an open `GPL-3.0-or-later` license that allows further customization and community-driven improvements
 
 ### Documentation
 
-- [Installation and configuration](docs/00-installation-configuration.md)
-- [Endpoint configuration](docs/01-endpoint-configuration.md)
-- [Indexing details](docs/02-indexing.md)
-- [Docker setup example](docs/03-docker-setup-example.md)
+- [Installation and configuration (EN)](docs/en/00-installation-configuration.md)
+- [Endpoint configuration (EN)](docs/en/01-endpoint-configuration.md)
+- [Indexing details (EN)](docs/en/02-indexing.md)
+- [Docker setup example (EN)](docs/en/03-docker-setup-example.md)
+- [Установка и конфигурация (RU)](docs/ru/00-installation-configuration.md)
+- [Настройка endpoint'ов (RU)](docs/ru/01-endpoint-configuration.md)
+- [Индексирование (RU)](docs/ru/02-indexing.md)
+- [Пример Docker setup (RU)](docs/ru/03-docker-setup-example.md)
 
 ### Screenshots
 
@@ -105,7 +109,7 @@ Bundle подходит для проектов, где нужен лёгкий 
 - Самостоятельный переиспользуемый bundle для установки в другие Pimcore-проекты
 - Read-only REST endpoints для `DataObjects` и `Assets`
 - Конфигурирование схемы через DataHub
-- Слой выдачи данных на базе Elasticsearch
+- переключаемый backend `OpenSearch / Elasticsearch`
 - Фильтрация, полнотекстовый поиск, сортировка, пагинация и агрегации
 - Swagger UI для просмотра и тестирования endpoint'ов
 - Защита API через bearer token
@@ -154,16 +158,20 @@ Bundle предоставляет настраиваемый REST-слой со 
 
 - обновления совместимости для `Pimcore 11`
 - поддержку Swagger для окружений на `Pimcore 11` и `Pimcore 12`
-- поддержку `OpenSearch` как альтернативы Elasticsearch
+- конфигурируемое переключение между `OpenSearch` и `Elasticsearch`
 - дальнейшее сопровождение совместимости для современных Pimcore-проектов
 - открытую лицензию `GPL-3.0-or-later`, позволяющую доработки, адаптацию и развитие сообществом
 
 ### Документация
 
-- [Установка и конфигурация](docs/00-installation-configuration.md)
-- [Настройка endpoint'ов](docs/01-endpoint-configuration.md)
-- [Детали индексирования](docs/02-indexing.md)
-- [Пример Docker setup](docs/03-docker-setup-example.md)
+- [Installation and configuration (EN)](docs/en/00-installation-configuration.md)
+- [Endpoint configuration (EN)](docs/en/01-endpoint-configuration.md)
+- [Indexing details (EN)](docs/en/02-indexing.md)
+- [Docker setup example (EN)](docs/en/03-docker-setup-example.md)
+- [Установка и конфигурация (RU)](docs/ru/00-installation-configuration.md)
+- [Настройка endpoint'ов (RU)](docs/ru/01-endpoint-configuration.md)
+- [Индексирование (RU)](docs/ru/02-indexing.md)
+- [Пример Docker setup (RU)](docs/ru/03-docker-setup-example.md)
 
 ### Скриншоты
 

@@ -7,9 +7,11 @@
     "pimcore",
     "pimcore-bundle",
     "datahub",
-    "rest"
+    "rest",
+    "opensearch",
+    "elasticsearch"
   ],
-  "homepage": "https://github.com/CI-HUB-GmbH/SimpleRESTAdapterBundle",
+  "homepage": "https://github.com/remzone/OdysseySimpleRESTAdapterBundle",
   "authors": [
     {
       "name": "CI HUB GmbH",
@@ -35,6 +37,10 @@
     "phpstan/phpstan": "^0.12",
     "phpstan/phpstan-symfony": "^0.12",
     "symplify/easy-coding-standard": "^9.0"
+  },
+  "suggest": {
+    "opensearch-project/opensearch-php": "Install this to use the bundle with engine=opensearch",
+    "elastic/elasticsearch": "Install this to use the bundle with engine=elasticsearch"
   },
   "autoload": {
     "psr-4": {
